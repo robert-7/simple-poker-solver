@@ -18,12 +18,12 @@ matrix:
       node_js:
         - stable
       install:
-        - npm install
+        - npm install eslint --save-dev
       cache:
         directories:
           - node_modules
       script:
-        - npm lint
+        - ./node_modules/.bin/eslint *.js
 
 notifications:
   email: false

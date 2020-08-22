@@ -2,7 +2,7 @@
   "name": "simple-poker-solver",
   "version": "1.0.0",
   "description": "Given a set of values for a Simplified Poker Game, returns the saddle point solutions.",
-  "main": "borelish-saddle-point-finder.js",
+  "main": "psp-ui-modifier.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/robert-7/simple-poker-solver#readme",
   "devDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
