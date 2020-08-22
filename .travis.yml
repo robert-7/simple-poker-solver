@@ -1,0 +1,16 @@
+---
+matrix:
+  include:
+    - name: Markdown Linting
+      stage: lint
+      language: ruby
+      rvm:
+        - "2.7"
+      install:
+        - gem install mdl
+        - echo -e "all\nrule 'MD013', :line_length => 120" > custom_rules.rb
+      script:
+        - mdl . --style custom_rules.rb
+
+notifications:
+  email: false
