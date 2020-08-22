@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/robert-7/simple-poker-solver/issues"
   },
-  "homepage": "https://github.com/robert-7/simple-poker-solver#readme"
+  "homepage": "https://github.com/robert-7/simple-poker-solver#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
 }
